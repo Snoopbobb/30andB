@@ -1,6 +1,6 @@
 </section>
       <footer>
-        <a href="http://twitter.com/skynettech101" target="_blank"><img src="<?php echo BASE_URL; ?>img/twitter-wrap.png" alt="Twitter Logo" class="social_icon"></a>
+        <a href="http://twitter.com/snoopbobb4" target="_blank"><img src="<?php echo BASE_URL; ?>img/twitter-wrap.png" alt="Twitter Logo" class="social_icon"></a>
         <a href="http://facebook.com/snoopbobb" target="_blank"><img src="<?php echo BASE_URL; ?>img/facebook-wrap.png" alt="Facebook Logo" class="social_icon"></a>
         <a href="http://github.com/snoopbobb" target="_blank"><img src="<?php echo BASE_URL; ?>img/github-wrap.png" alt="Github Logo" class="social_icon"></a>
         <p>&copy; 30andB.com.</p>
