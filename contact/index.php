@@ -15,7 +15,7 @@
         <ul class="contact_info">
           <li class="phone"><a  href="tel:480-215-1372">480-215-1372</a></li>
           <li class="mail"><a href="mailto:bobtabor@q.com">E-mail Bob</a></li>
-          <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=skynettech101" target="_blank">@skynettech101</a></li>
+          <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=snoopbobb4" target="_blank">@snoopbobb4</a></li>
         </ul>
 
 <?php 
