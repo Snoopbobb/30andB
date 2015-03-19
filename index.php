@@ -4,8 +4,33 @@
   include(ROOT_PATH . 'inc/header.php');  
 ?>
       <section>
-        <div id="title"> <p>Hi I'm Bob Tabor.  This is my design portfolio where I share some of the projects I have worked on.  I am always busy learning and developing, so check back often for updates.</p></div>
+        <div id="title"> <p>Hi I'm Bob Tabor.  This is my design portfolio where I share some of the projects I have worked on.  
+                            I am always busy learning and developing, so check back often for updates.</p></div>
         <ul id="gallery">
+        <li>
+            <a href="http://30andb.com/mysqlproject/" target="_blank">
+              <img src="img/mysqlproject.png" alt="mysql project"> 
+              <p>This project uses php and mysql to create a management system for a store. The system is able to track
+              products, invoices, and customers. The user is able to create, retrieve, update, and delete any of these 
+              entities with the click of a button.</p>
+            </a>
+          </li>
+           <li>
+            <a href="http://snoopbobb.github.io/m3cssproject/" target="_blank">
+              <img src="img/m3cssproject.png" alt="css project"> 
+              <p>This project uses html and css to recreate an artist's rendition of a website. 
+                It uses many different CSS patterns such as media objects, double box, and dual 
+                background patterns to acheive some of the effects.</p>
+            </a>
+          </li>
+          <li>
+            <a href="http://snoopbobb.github.io/m4twitterproject/" target="_blank">
+              <img src="img/m4twitterproject.png" alt="twitter project"> 
+              <p>Twitter project using jQuery, and Handlebars.js. Visit the page and click around. The page
+              resets with a page refresh. Notice the div classes toggling on click events. The twitter messages
+              are placeholder templates and pulled into the html with Handlebars. Have fun!</p>
+            </a>
+          </li>
           <li>
             <a href="http://grandcountybaseball.com" target="_blank">
               <img src="img/gcbaseball.jpg" alt="Grand Slammers | Grand County Baseball"> 
