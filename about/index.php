@@ -4,35 +4,41 @@
   include(ROOT_PATH . 'inc/header.php');  
 ?>
       <section>
-        <img src="../img/100_1306.jpg" alt="Photograph of Bob Tabor" class="profile_photo">
+        <img src="../img/Bob.jpg" alt="Photograph of Bob Tabor" class="profile_photo">
       <div id="about_content">
         <h3>About</h3>
-        <p>Since January of 2012, I have been busy teaching myself web design and development with a goal to become a full stack developer.  
-        My top skills right now include Wordpress, HTML, CSS, Adobe Illustrator, and Adobe Photoshop.  I also have experience with PHP, MYSQL, 
-        JavaScript, jQuery, Ruby on Rails, PostgreSQL, Git, Console, XAMMP, and FTP.  My favorite IDE's and text editors are Sublime Text 3, 
-        PHPStorm, and RubyMine. I have also worked a little with HTML5 Boilerplate, Foundation 5, and Bootstrap. Everyday I try to learn something new or get
-        better at something I've already learned.</p>
-        <h3>What I Will Do For You</h3>
+        <p>I am currently attending <a href="http://rockitbootcamp">Rockit Bootcamp</a> in Tempe, AZ. This is a very intense 12 week course which 
+        covers full stack web development. The hours of the camp are 9am to 5pm Monday through Friday. I also spent 10 to 30 hours a week during my
+        own time in order to keep up with the class. The list of subjects we've covered are:</p>
         <ul>
-          <dt>Finisher</dt>
-            <dd>I'll do what it takes to get the job done.  I don't know everything, but I will find the answer to anything I don't know quickly.
-            Being resourceful and efficient, are some of my natural skills.
-            </dd>
-          <dt>Ambitious</dt>
-            <dd>I love learning new things and pushing myself to reach goals that may seem difficult.  I knew absolutely nothing about web design or development when I started teaching myself the skills needed to become a professional developer. 
-            </dd>
-          <dt>Driven</dt>
-            <dd>I've spent countless hours learning as much as I could about web design and development.  Most of the time I was eating, sleeping, and spending every moment I could trying to learn something new or brushing up on what I had already learned.  This was done with no one to answer to but myself, to challenge myself, and to restart my chosen career.
-            </dd>
-          <dt>Loyal</dt>
-            <dd>I once worked for a building materials and engineering firm for over 11 years, riding it through the greatest building crash of our generation.  Unfortunately I was chewed up and spit out at the end of it.  It was a rough ride down to the bottom, but I bounced back up and was able to evaluate what I really wanted to do for the rest of my career.
-            </dd>
-          <dt>Teammate</dt>
-            <dd> I love working as a member of a team.  Everyone driving toward the same goal and working together to help each other out with no drama, jealousy, or impedence.  I always loved to bunt, pick up blitzes, and get the assists.  Hitting homeruns and scoring touchdowns are fun too, but there's nothing better than winning as a team.
-            </dd>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>javaScript</li>
+            <li>jQuery</li>
+            <li>Handlebars.js</li>
+            <li>Bower</li>
+            <li>Gulp</li>
+            <li>SAAS</li>
+            <li>Unix</li>
+            <li>Apache</li>
+            <li>Version Control with Git</li>
+            <li>PHP</li>
+            <li>Object Oriented Programming</li>
+            <li>Laravel</li>
+            <li>MySQL</li>
+            <li>Agile Methodology</li>
+            <li>SCRUM</li>
+            <li>Group Projects</li>
+            <li>INdividual Projects</li>
         </ul>
-
-        <p>If you'd like to follow me on Twitter my username is <a href="http://twitter.com/skynettech101">@skynettech101</a></p>
+        <p>Prior to Rockit Bootcamp, I was learning web development on my own. During this time I learned HTML, CSS, Ruby on Rails, Wordpress,
+        Adobe Photoshop, and Adobe Illustrator.</p>
+        <h3>I love working with technology</h3>
+        <p>I have always been fascinated by technolgy and always wished I knew how to build websites and software. The more I learn, the more
+        I realize there is to learn, and the more I want to learn. I am currently seeking a position with an organization that will allow me to 
+        continue my learning while pushing me to become a better developer and programmer everyday. I love being challenged and I love working
+        with people and companies that are passionate and positive. Thank you so much for visiting. I hope to hear from you soon.</p>
+        <p>If you'd like to follow me on Twitter my username is <a href="http://twitter.com/snoopbobb4">@snoopbobb4 </a></p>
       </div>
         <!--
         <h4>PROFESSIONAL  EXPERIENCE</h4>  
