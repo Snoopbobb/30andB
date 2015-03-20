@@ -11,7 +11,7 @@
             <a href="http://30andb.com/groupproject/" target="_blank">
               <img src="img/groupproject.png" alt="group project"> 
               <p>This is a group project that we designed and developed at Rockit Bootcamp. It was built with laravel. We brought 
-                  in a live weather api and an instgram feed that shows scrolling images. The site is databse drive, mysql, and 
+                  in a live weather api and an instgram feed that shows scrolling images. The site is database driven using mysql, and 
                   has user sign up and the ability to comment on individual trails.</p>
               </a>
           </li>
