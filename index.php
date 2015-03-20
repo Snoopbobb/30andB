@@ -8,6 +8,14 @@
                             I am always busy learning and developing, so check back often for updates.</p></div>
         <ul id="gallery">
         <li>
+            <a href="http://30andb.com/groupproject/" target="_blank">
+              <img src="img/groupproject.png" alt="group project"> 
+              <p>This is a group project that we designed and developed at Rockit Bootcamp. We brought an a live weather api and
+                  an instgram feed that shows scrolling images. The site is databse drive, mysql, and has user sign up and the 
+                  ability to comment on individual trails.</p>
+              </a>
+          </li>
+        <li>
             <a href="http://30andb.com/mysqlproject/" target="_blank">
               <img src="img/mysqlproject.png" alt="mysql project"> 
               <p>This project uses php and mysql to create a management system for a store. The system is able to track
