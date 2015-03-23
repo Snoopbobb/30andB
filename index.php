@@ -8,8 +8,8 @@
                             I am always busy learning and developing, so check back often for updates.</p></div>
         <ul id="gallery">
         <li>
-            <a href="http://30andb.com/groupproject/" target="_blank">
-              <img src="img/groupproject.jpg" alt="group project"> 
+            <a href="http://30andb.com/hikingtrailz/" target="_blank">
+              <img src="img/groupproject.jpg" alt="hikingtrailz"> 
               <p>This is a group project that we designed and developed at Rockit Bootcamp. It was built with laravel. We brought 
                   in a live weather api and an instgram feed that shows scrolling images. The site is database driven using mysql, and 
                   has user sign up and the ability to comment on individual trails.</p>
