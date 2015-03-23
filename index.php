@@ -9,7 +9,7 @@
         <ul id="gallery">
         <li>
             <a href="http://30andb.com/groupproject/" target="_blank">
-              <img src="img/groupproject.png" alt="group project"> 
+              <img src="img/groupproject.jpg" alt="group project"> 
               <p>This is a group project that we designed and developed at Rockit Bootcamp. It was built with laravel. We brought 
                   in a live weather api and an instgram feed that shows scrolling images. The site is database driven using mysql, and 
                   has user sign up and the ability to comment on individual trails.</p>
@@ -25,7 +25,7 @@
           </li>
            <li>
             <a href="http://snoopbobb.github.io/m3cssproject/" target="_blank">
-              <img src="img/m3cssproject.png" alt="css project"> 
+              <img src="img/m3cssproject.jpg" alt="css project"> 
               <p>This project uses html and css to recreate an artist's rendition of a website. 
                 It uses many different CSS patterns such as media objects, double box, and dual 
                 background patterns to acheive some of the effects.</p>
