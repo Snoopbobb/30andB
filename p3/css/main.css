@@ -1,0 +1,202 @@
+body 
+{ 
+color: #3f312e; 
+background: #000; 
+font: 14px Helvetica, Arial, Sans-serif;
+}
+
+img
+{
+border: none;
+}
+
+a
+{
+color: #fff;
+}
+
+#header 
+{
+width: 80%;
+min-height: 150px;
+margin: 0 auto;
+}
+
+#navigation 
+{
+margin: 0 auto;
+position: relative;
+top: -5px;
+float: right;
+padding: 0 11% 0 0;
+}
+
+#navigation ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#navigation ul li
+{
+display: inline;
+margin-right: 3px;
+}
+
+#navigation ul li a
+{
+font-weight: bold;
+background: #fbe49b;
+text-decoration: none;
+padding: 6px 6px 6px 6px;
+text-transform: uppercase;
+border-left: 1px solid #fff;
+border-top: 1px solid #fff;
+border-right: 1px solid #fff;
+background-color: red;
+}
+
+#navigation ul li.current_page_item a, 
+#navigation ul li a:hover
+{
+color: #3f312e;
+border-left: 1px solid #fff;
+border-top: 1px solid #fff;
+border-right: 1px solid #fff;
+background-color: #fff;
+background-image: url(../images/white_wall_hash.png);
+}
+
+
+#container
+{
+overflow: auto;
+width: 80%;
+margin: 0 auto;
+padding: 1px 10px 10px 1px;
+background: #FF0022;
+}
+
+#content
+{
+width: 100%;
+min-height: 400px;
+margin: 0 auto;
+overflow: auto;
+background: #fff;
+background-image: url(../images/white_wall_hash.png);
+}
+
+#contentleft
+{
+font-size: 1.2em;
+width: 60%;
+float: left;
+margin-right: 20px;
+padding: 20px;
+}
+
+#contentleft h1
+{
+font-size: 30px;
+color: red; 
+margin-top: 0;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 3px solid black;
+border-left: none;
+}
+
+#contentleft h4
+{
+margin: 0;
+padding: 0;
+}
+
+#sidebar
+{
+width: 30%;
+float: left;
+padding: 20px;
+}
+
+.sidebar-element
+{
+overflow: auto;
+margin-top: 15px;
+}
+
+#sidebar h3
+{
+color: red;
+text-align: center;
+background: #000;
+padding: 7px 10px;
+text-transform: uppercase;
+font-size: 14px;
+}
+
+#sidebar ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#sidebar ul li
+{
+margin: 0 0 7px 0;
+}
+
+#subfooter
+{
+width: 96%;
+float: left;
+margin: 0 auto;
+padding: 0 2%;
+background-color: #E0DADB;
+}
+
+#subfooter h3
+{
+color: red;
+}
+
+#footer
+{
+width: 80%;
+margin: 0 auto;
+text-align: center;
+}
+
+#footer ul
+{
+margin: 15px 0 0 0;
+padding: 0;
+list-style-type: none;
+}
+
+#footer ul li
+{
+display: inline;
+margin-right: 5px;
+}
+
+#footer ul li a
+{
+text-transform: uppercase;
+text-decoration: none;
+}
+
+#footer ul li a:hover
+{
+text-decoration: underline;
+}
+
+#footer p
+{
+font-weight: bold;
+color: red;
+}
