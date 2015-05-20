@@ -1,0 +1,75 @@
+********************************************************************************
+PACKAGE-LOG: 2015-05-17 22:58:57
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.18
+WORDPRESS:	4.2.2
+PHP INFO:	5.4.40 | SAPI: apache2handler
+SERVER:		Apache/2.2.15 (CentOS) 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (128M default) 
+MEMORY STACK: 58MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP (query limit - 100)
+MYSQLDUMP:    Is Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:31 | filtered:0 | create:31 
+FILTERED: [] 
+SQL CREATED: 20150517_brslocal24_55591d1ccb6c73560150517225836_database.sql 
+SQL FILE SIZE: 712.61KB 
+SQL FILE TIME: 2015-05-17 22:58:57 
+SQL RUNTIME: 0.09 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /var/www/30andb/brs24 
+ARCHIVE FILE: 20150517_brslocal24_55591d1ccb6c73560150517225836_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	82.31MB 
+STATS:	Dirs 560 | Files 4,487 | Links 0 
+SQL ADDED: 20150517_brslocal24_55591d1ccb6c73560150517225836_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5047
+    [filename] => /var/www/30andb/brs24/wp-snapshots/tmp/20150517_brslocal24_55591d1ccb6c73560150517225836_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 41.48MB 
+ARCHIVE RUNTIME: 8.80 sec. 
+MEMORY STACK: 59.5MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [/var/www/30andb/brs24/wp-snapshots/tmp/20150517_brslocal24_55591d1ccb6c73560150517225836_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 712.61KB 
+Installer File: 316.85KB 
+Archive File: 41.48MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 9.20 sec.
+PEAK PHP MEMORY USED: 61.5MB
+DONE PROCESSING => 20150517_brslocal24 2015-05-17 22:59:06
+ 

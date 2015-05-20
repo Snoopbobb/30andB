@@ -1,232 +1,234 @@
-/***********
-GENERAL
-************/
 body {
-  font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #555;
+	background: url(../images/noisy.png);
+	background-attachment: fixed;
 }
 
-#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+*:focus {
+    outline: 0;
+}
+
+h1, h2{
+	margin: 0;
+	padding: 0;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
+	color: white;
 }
 
-img {
-  max-width: 100%;
+.hide {
+	display: none;
 }
 
-h3 {
-  margin: 0 0 1em 0;
+.social-media {
+	position: fixed;
+	top: 10px;
+	right: 10px;
 }
 
-
-
-/***********
-HEADING
-************/
-
-header {
-  float: left;
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
-  width: 100%;
+.social-media i {
+	display: block;
 }
 
-#logo {
-  text-align:center;
-  margin: 0;
+.social-media i:hover {
+	color: rgba(252,137,43,1);
 }
 
-h1 {
-  font-family: 'Changa One', sans-serif;
-  margin: 15px 0;
-  font-size: 1.75em;
-  font-weight: normal;
-  line-height: 0.8em;
+.fa-chevron-up {
+	position: fixed;
+	bottom: 10px;
 }
 
-h2 {
-  font-size: 0.75em;
-  margin: -5px 0 0;
-  font-weight: normal;
+.hero {
+	background-color: black;
+	background: radial-gradient(ellipse at center, rgba(0,0,0,.2) 0%,rgba(83,14,110,0.65) 37%,rgba(0,0,0,0.85) 55%,rgba(0,0,0,1) 100%),
+				url(../images/az.jpg);
+	background-size: cover;
+	min-height: 100vh;
+	color: white;
+	text-align: center;
+	font-family: Montserrat;
+	background-attachment: fixed;
 }
 
-
-/***********
-NAVIGATION
-************/
-
-nav {
-  text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
+.hero-content {
+	padding: 12% 0;
+	font-size: 400%;
+	font-weight: bolder;
+	text-transform: uppercase;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
+.hero-content button{
+	font-size: .22em;
 }
 
-nav li {
-  display: inline-block;
+button {
+	width: 110px;
+	height: 50px;
+	background-color: transparent;
+	border-radius: 10px;
+	border: 2px solid white;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bolder;
 }
 
-nav a {
-  font-weight: 800;
-  padding: 15px 10px;
+button:hover {
+	background-color: rgba(252,137,43,1);
+	color: black;
+	border: none;
 }
 
+.portfolio-wrapper {
+	background-color: gray;
+	background: url(../images/stardust.png);
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+	width: 100%;
+	min-height: 1800px ;
+	overflow: auto;
+}
 
-/***********
-FOOTER
-************/
+.portfolio-half {
+	/*background: url(../images/stardust.png);
+	background-attachment: fixed;
+	width: 48.6%;
+	background-color: #444;
+	padding: 10px;*/
+}
+
+.portfolio-item-hide {
+	display: none;
+}
+
+.portfolio-item {
+	float: left;
+	min-height: 250px;
+	overflow: auto;
+	margin: 10px;
+	overflow: hidden;
+	width: 45%;
+	text-align: center;
+	background-color: rgba(4,4,4, .2);
+	/*border: 2px solid #555;*/
+	border-radius: 10px;
+	padding: 10px 5px;
+	position: relative;
+	left: 2%;
+}
+
+.portfolio-item img {
+	width: 200px;
+	height: 150px;
+	float: left;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 10px;
+}
+
+.portfolio-item h3, .portfolio-item p {
+	margin-left: 35%;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.portfolio-item h3 {
+	padding-top: 20px;
+}
+
+.portfolio-item p {
+	text-align: left;
+}
+
+.portfolio-item button {
+	margin-left: 40px;
+	width: 100px;
+	height: 40px;
+}
+
+main {
+	margin: 0 10%;
+	padding: 20px;
+	clear: both;
+	min-height: 1000px;
+	background-color: transparent;
+	overflow: auto;
+}
+
+main h3 {
+	font-size: 4em;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-align: center;
+}
+
+main a {
+	color: orange;
+}
+
+main p {
+	font-size: 1.3em;
+	font-weight: bolder;
+}
+
+main div {
+	float: left;
+	padding: 20px;
+}
+
+.about-content-hide {
+	display: none;
+}
+
+div.clear {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+main li {
+	list-style-type: none;
+	font-size: 1.3em;
+	padding: 10px;
+}
 
 footer {
-  font-size: 0.75em;
-  text-align: center;
-  clear: both;
-  padding-top: 50px;
-  color: #ccc;
+	padding: 10px;
+	min-height: 200px;
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	overflow: auto;
 }
 
-.social_icon {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
+.footer-content-hide {
+	display: none;
 }
 
-
-
-/***********
-GALLERY
-************/
-
-#title {
-  margin: 0;
-  padding: 15px;
+footer h3, h4, h5 {
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-align: center;
 }
 
-#gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+footer h4 {
+	font-size: 2em;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	display: inline;
 }
 
-#gallery li {
-  float: right;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #bdc3c7;
+footer h5 {
+	font-size: 1.5em;
+	padding: 0;
+	margin: 0 25px 0 0;
+	text-align: left;
+	display: inline;
 }
-
-#gallery li a p {
-  margin: 0;
-  padding: 4%;
-  font-size: 0.75em;
-  color: #bdc3c7;
-}
-
-
-/***********
-Page: About
-************/
-
-.profile_photo {
-  display: block;
-  max-width: 150px;
-  margin: 0 auto 30px;
-  border-radius: 100%;
-}
-
-#about_content {
-  width: 80%;
-  margin-left: 20%;
-}
-
-#about_content ul dt {
-  font-weight: bold;
-  color: #73A6A1;
-}
-
-/***********
-Page: Contact
-************/
-
-.contact_info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
-}
-
-.contact_info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
-}
-
-.contact_info li.phone a {
-  background-image: url('../img/phone.png');
-}
-
-.contact_info li.mail a {
-  background-image: url('../img/mail.png');
-}
-
-.contact_info li.twitter a {
-  background-image: url('../img/twitter.png');
-}
-
-
-/***********
-COLoRS
-************/
-
-/* site body */
-body {
- background-color: #fff;
- color: #999;
-}
-
-/* orange header */
-header {
-  background: #FA6407;
-  border-color: #fff;
-}
-
-/* logo text */
-h1, h2 {
-  color: #fff; 
-}
-
-/* nav background on mobile */
-nav {
-  background: #999; 
-}
-
-/* links */
-a {
-  color: #73A6A1;
-}
-
-
-
-/* nav link */
-nav a, nav a:visited {
-  color: #fff; 
-}
-
-/* selected nav link */
-nav a.selected, nav a:hover {
-  color: #0A1C28; 
-}
-
