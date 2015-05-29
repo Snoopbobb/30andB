@@ -4,6 +4,7 @@ body {
 	background-color: #555;
 	background: url(../images/noisy.png);
 	background-attachment: fixed;
+	text-align: center;
 }
 
 *:focus {
@@ -62,11 +63,12 @@ a {
 	text-transform: uppercase;
 }
 
-.hero-content button{
-	font-size: .22em;
+.hero-content .button{
+	margin-top: 20px;
+	font-size: .44em;
 }
 
-button {
+.button {
 	width: 110px;
 	height: 50px;
 	background-color: transparent;
@@ -75,12 +77,15 @@ button {
 	color: white;
 	text-transform: uppercase;
 	font-weight: bolder;
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
 }
 
-button:hover {
+.button:hover {
 	background-color: rgba(252,137,43,1);
 	color: black;
-	border: none;
+	border: 2px solid transparent;
 }
 
 .portfolio-wrapper {
@@ -119,6 +124,7 @@ button:hover {
 	padding: 10px 5px;
 	position: relative;
 	left: 2%;
+	position: relative;
 }
 
 .portfolio-item img {
@@ -126,7 +132,7 @@ button:hover {
 	height: 150px;
 	float: left;
 	border-radius: 10px;
-	margin: 5px;
+	margin: 30px 20px;
 	padding: 10px;
 }
 
@@ -134,20 +140,18 @@ button:hover {
 	margin-left: 35%;
 	margin-top: 10px;
 	margin-right: 10px;
+
 }
 
 .portfolio-item h3 {
 	padding-top: 20px;
+	margin-bottom: 10px;
+	color: rgba(252,137,43,1);
 }
 
 .portfolio-item p {
 	text-align: left;
-}
-
-.portfolio-item button {
-	margin-left: 40px;
-	width: 100px;
-	height: 40px;
+	margin-bottom: 30px;
 }
 
 main {
