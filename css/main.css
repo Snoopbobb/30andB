@@ -29,6 +29,7 @@ a {
 	position: fixed;
 	top: 10px;
 	right: 10px;
+	z-index: 10;
 }
 
 .social-media i {
@@ -94,7 +95,7 @@ a {
 	background-attachment: fixed;
 	background-repeat: repeat-x;
 	width: 100%;
-	min-height: 1800px ;
+	min-height: 1800px;
 	overflow: auto;
 }
 
@@ -186,6 +187,12 @@ main div {
 
 .about-content-hide {
 	display: none;
+}
+
+.skill-wrapper {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
 }
 
 div.clear {
