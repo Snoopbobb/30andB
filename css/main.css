@@ -1,3 +1,9 @@
+@media (max-width: 820px) {
+  .skill-content a {
+    color: purple;
+    float: none;
+    width: 100%; } }
+
 body {
   margin: 0;
   box-sizing: border-box;
@@ -30,7 +36,7 @@ a, a:hover {
   display: block; }
 
 .social-media i:hover {
-  color: #fc892b; }
+  color: #FF7300; }
 
 .fa-chevron-up {
   position: fixed;
@@ -76,7 +82,7 @@ a, a:hover {
   margin: 10px; }
 
 .button:hover {
-  background-color: #fc892b;
+  background-color: #FF7300;
   color: black;
   border: 2px solid transparent; }
 
@@ -99,7 +105,7 @@ a, a:hover {
   overflow: auto;
   margin: 10px;
   overflow: hidden;
-  width: 47%;
+  width: 95%;
   text-align: center;
   background-color: rgba(4, 4, 4, 0.2);
   /*border: 2px solid #555;*/
@@ -114,8 +120,8 @@ a, a:hover {
   height: 30%;
   float: left;
   border-radius: 10px;
-  margin: 50px 20px;
-  padding: 10px; }
+  margin: 30px 100px 30px 20px;
+  padding: 0 20px 40px 0; }
 
 .portfolio-item h3, .portfolio-item p, .portfolio-item a {
   margin-left: 20px;
@@ -125,9 +131,10 @@ a, a:hover {
 .portfolio-item h3 {
   padding-top: 20px;
   margin-bottom: 10px;
-  color: #fc892b; }
+  color: #FF7300; }
 
 .portfolio-item p {
+  font-size: 125%;
   text-align: left;
   margin-bottom: 30px; }
 
@@ -159,10 +166,28 @@ main div {
 .about-content-hide {
   display: none; }
 
+.about {
+  text-align: left;
+  font-size: 125%;
+  font-weight: bolder; }
+
+.about a {
+  color: #FF7300; }
+
+.about a:hover {
+  color: black; }
+
 .skill-wrapper {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
   text-align: center; }
+
+.skill-content {
+  float: left;
+  width: 30%; }
+
+.about ul, .about li {
+  padding: 0;
+  margin: 0; }
 
 div.clear {
   clear: both;
