@@ -25,7 +25,7 @@ gulp.task('scripts', function() {
 gulp.task('css', function () {
   return gulp.src([
       'bower_components/bootstrap/dist/css/bootstrap.css', 
-      'bower_components/animate.css/animate.css',
+      // 'bower_components/animate.css/animate.css',
       'bower_components/fontawesome/css/font-awesome.css'
       // 'css/*.css'  To check entire css folder for changes
       ])
