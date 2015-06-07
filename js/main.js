@@ -11,7 +11,6 @@ $(function(){
 	    if (scroll >= 500) {
 	        //clearHeader, not clearheader - caps H
 	        $(".hide").removeClass("hide");
-	        console.log(scroll);
 	    }
 
 	});
@@ -24,7 +23,6 @@ $(function(){
 	    if (scroll >= 350) {
 	        //clearHeader, not clearheader - caps H
 	        $(".portfolio-item-hide").removeClass("portfolio-item-hide").addClass("portfolio-item animated slideInLeft");
-	        console.log(scroll);
 	    }
 
 	});
@@ -37,7 +35,6 @@ $(function(){
 	    if (scroll >= 2600) {
 	        //clearHeader, not clearheader - caps H
 	        $(".about-content-hide").removeClass("about-content-hide").addClass("animated slideInRight");
-	        console.log(scroll);
 	    }
 
 	});
@@ -50,7 +47,6 @@ $(function(){
 	    if (scroll >= 3530) {
 	        //clearHeader, not clearheader - caps H
 	        $(".footer-content-hide").removeClass("footer-content-hide").addClass("animated bounceInUp");
-	        console.log(scroll);
 	    }
 
 	});

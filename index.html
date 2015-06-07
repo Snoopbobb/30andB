@@ -3,22 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bob Tabor | Web Developer | Scottsdale, AZ</title>
-	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="//fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/build.css">
 	<link rel="stylesheet" href="css/main.css">
-	<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
-	<script src="js/main.js"></script>
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-46721230-3', 'auto');
-	  ga('send', 'pageview');
-	</script>
 </head>
 <body>
 	<div class="hero" id="top">
@@ -36,7 +24,7 @@
 			<a class="button" href="#contact">Contact</a>
 		</div>
 	</div>
-	<section class="portfolio-wrapper" id="portfolio">
+	<section class="portfolio-wrapper container" id="portfolio">
 			<div class="portfolio-item-hide portfolio-item">
 	            <a href="http://30andb.com/utryout" target="_blank">
 	            	<img src="images/utryout.png" alt="utryout.com">
@@ -81,7 +69,7 @@
 	            	<img src="images/baseballscores.jpg" alt="baseballscores">
 	            	<h3>Baseball Scores</h3> 
 	              	<p>This is a php project that shows Major League Baseball's final scores. You can select a date to view the day's scores
-	              	and then view the previous or next day's scores with the navigation buttons. The file uses MLB's xml data feed to retrieve the scores. The data is then parsed and iterated over to provide the proper output.</p>
+	              	and then view the previous or next day's scores with the navigation buttons. The file uses MLB's xml data feed to retrieve the scores.</p>
 	            </a>
 	            <a class="button" href="http://30andb.com/baseballscores/">Visit</a>
 	            <a class="button" href="https://github.com/Snoopbobb/baseballscores">See Code</a>
@@ -99,9 +87,8 @@
 	            <a href="http://30andb.com/hikingtrailz/" target="_blank">
 	            	<img src="images/groupproject.jpg" alt="hikingtrailz">
 	            	<h3>Hiking Trailz</h3> 
-	              	<p>This is a group project that we designed and developed at Rockit Bootcamp. It was built with laravel. We brought 
-	           		  in a live weather api and an instgram feed that shows scrolling images. The site is database driven using mysql, and 
-	                  has user sign up and the ability to comment on individual trails.</p>
+	              	<p>This is a group project that we developed at Rockit Bootcamp. It was built with Laravel. We brought 
+	           		  in a live weather api and an Instagram feed that shows scrolling images.</p>
 	            </a>
 	            <a class="button" href="http://30andb.com/hikingtrailz/">Visit</a>
 	            <a class="button" href="https://github.com/Snoopbobb/hikingtrailz">See Code</a>
@@ -259,7 +246,7 @@
 			            <li>Laravel</li>
 			            <li>MySQL</li>
 			            <li>Apache</li>
-			            <li>SAAS</li>
+			            <li>SaaS</li>
 			        </ul>
 			    </div>
 			    <div>
@@ -288,15 +275,16 @@
 			<h5 id="contact">bobtabor@q.com</h5>
 		</div>
 	</footer>
+	<script src="js/build.js"></script>
+	<script src="js/main.js"></script>
 	<script>
-  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  		ga('create', 'UA-46721230-3', 'auto');
-  		ga('send', 'pageview');
-
+	  ga('create', 'UA-46721230-3', 'auto');
+	  ga('send', 'pageview');
 	</script>
 </body>
 </HTML>
